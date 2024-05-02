@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta name ="Author" content="MPacheco" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmacia Pacheco - Galería</title>
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #007bff; 
+            color: white;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+            text-align: center;
+        }
+        .logo {
+            width: 100px;
+            height: auto;
+        }
+        .product {
+            width: calc(33.33% - 20px); 
+            display: inline-block;
+            margin: 10px;
+            vertical-align: top;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            text-align: left;
+        }
+        footer {
+            background-color: #f8f9fa; 
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="imagenes/logo.png" alt="No encontrado" >
+            <span>Farmacia Pacheco</span>
+        </div>
+        <nav>
+            <a href="">Iniciar sesión</a>
+            <a href="">Galería</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <img src="imagenes/imagenprincipal.jpg" alt="No encontrado" style="max-width: 100%; margin-bottom: 20px;">
+        
+      
+        <div class="producto">
+            <h3>Paracetamol</h3>
+            <p>Precio: $1000</p>
+            <img src="imagenes/paracetamol.jpg" alt="No encontrado" style="width: 100px; margin-bottom: 10px;">
+            <p>Cantidad: <input type="text"></p>
+            <p>Analgésico y antipirético utilizado para aliviar dolores leves a moderados, como dolores de cabeza, dolores musculares y fiebre.</p>
+        </div>
+
+        <div class="producto">
+            <h3>Ibuprofeno</h3>
+            <p>Precio: $700</p>
+            <img src="imagenes/ibu.jpg" alt="Producto 2" style="width: 100px; margin-bottom: 10px;">
+            <p>Cantidad: <input type="text"></p>
+            <p>Antiinflamatorio no esteroideo (AINE) que se utiliza para aliviar el dolor, la inflamación y la fiebre asociados con condiciones como dolores de cabeza, dolor de muelas, artritis, y cólicos menstruales.
+            </p>
+        </div>
+
+        <div class="producto">
+            <h3>Omeprazol</h3>
+            <p>Precio: $1500</p>
+            <img src="imagenes/ome.jpg" alt="Producto 3" style="width: 100px; margin-bottom: 10px;">
+            <p>Cantidad: <input type="text"></p>
+            <p>Inhibidor de la bomba de protones (IBP) utilizado para tratar afecciones relacionadas con el exceso de ácido estomacal</p>
+        </div>
+
+        <div style="clear:both;"></div> 
+
+        <div class="producto">
+            <h3>Loratadina</h3>
+            <p>Precio: $1400</p>
+            <img src="imagenes/lorotadina.jpg" alt="Producto 4" style="width: 100px; margin-bottom: 10px;">
+            <p>Cantidad: <input type="text"></p>
+            <p> Antihistamínico de segunda generación utilizado para aliviar los síntomas de alergias estacionales y perennes</p>
+        </div>
+
+        <div class="producto">
+            <h3>Suero</h3>
+            <p>Precio: $2000</p>
+            <img src="imagenes/suero.jpg" alt="Producto 5" style="width: 100px; margin-bottom: 10px;">
+            <p>Cantidad: <input type="text"></p>
+            <p>Solución oral utilizada para prevenir o tratar la deshidratación causada por enfermedades como la diarrea y el vómito.</p>
+        </div>
+
+        <div class="producto">
+            <h3>Vitamina C</h3>
+            <p>Precio: $1000</p>
+            <img src="imagenes/vitamina.jpg" alt="Producto 6" style="width: 100px; margin-bottom: 10px;">
+            <p>Cantidad: <input type="text"></p>
+            <p>Vitamina esencial que desempeña un papel importante en el sistema inmunológico, la salud de la piel, la cicatrización de heridas y la absorción de hierro.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>Desarrollador: Maximiliano Joaquín Pacheco González</p>
+    </footer>
+</body>
+</html>
